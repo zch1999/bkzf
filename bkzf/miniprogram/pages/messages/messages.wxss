@@ -1,0 +1,11 @@
+/* miniprogram/pages/messages/messages.wxss */
+.msg{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.msgtext{
+  font-size: 30rpx;
+  color: rgb(173, 172, 172);
+
+}

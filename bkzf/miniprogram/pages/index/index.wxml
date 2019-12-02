@@ -1,0 +1,126 @@
+<view class="container">
+<van-search class="sousuo" value="{{ value }}" placeholder="请输入搜索关键词" use-action-slot bind:search="onSearch">
+  <view slot="action" bind:tap="onSearch">搜索</view>
+</van-search>
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-dots="true" indicator-color="#ffffff">
+        <block wx:for="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}" class="slider-image" width="355" height="150" bindtap="swipclick"></image>
+          </swiper-item>
+        </block>
+</swiper>
+</view>
+<view class="nav">
+  <view class="nav-item">
+    <image src='/images/navigate/ershoufang.png' class="nav-image"></image>
+    <text>二手房</text>
+  </view>
+  <view class="nav-item">
+    <image src='/images/navigate/xin.png' class="nav-image"></image>
+    <text>新房</text>
+  </view>
+  <view class="nav-item">
+    <image src='/images/navigate/zhufang.png' class="nav-image"></image>
+    <text>租房</text>
+  </view>
+  <view class="nav-item">
+    <image src='/images/navigate/maifang.png' class="nav-image"></image>
+    <text>卖房</text>
+  </view>
+  <view class="nav-item">
+    <image src='/images/navigate/haiwai2.png' class="nav-image"></image>
+    <text>海外</text>
+  </view>
+</view>
+<view class="nav">
+  <view class="nav-item">
+    <image src='/images/navigate/ershoufang.png' class="nav-image"></image>
+    <text>装修</text>
+  </view>
+  <view class="nav-item">
+    <image src='/images/navigate/xin.png' class="nav-image"></image>
+    <text>搬家保洁</text>
+  </view>
+  <view class="nav-item">
+    <image src='/images/navigate/zhufang.png' class="nav-image"></image>
+    <text>商铺办公</text>
+  </view>
+  <view class="nav-item">
+    <image src='/images/navigate/maifang.png' class="nav-image"></image>
+    <text>查成交</text>
+  </view>
+  <view class="nav-item">
+    <image src='/images/navigate/haiwai2.png' class="nav-image"></image>
+    <text>买卖流程</text>
+  </view>
+</view>
+<view class="housetool">
+  <text>找房工具</text>
+</view>
+<view class="nav-box">
+  <view class="nav-config">
+    <image src='/images/navigate/haiwai2.png' class="config-image"></image>
+    <text>买卖流程</text>
+  </view>
+  <view class="nav-config">
+    <image src='/images/navigate/haiwai2.png' class="config-image"></image>
+    <text>买卖流程</text>
+  </view>
+  <view class="nav-config">
+    <image src='/images/navigate/haiwai2.png' class="config-image"></image>
+    <text>买卖流程</text>
+  </view>
+</view>
+<view class="zfhelp">
+  <text>帮我找房</text>
+</view>
+<view class="nav-finding">
+<view class="nav-finding-box">
+    <image src='/images/navigate/haiwai2.png' class="finding-image"></image>
+    <text>买卖流程</text>
+  </view>
+</view>
+    <!-- </view>
+    </view> -->
+<!-- <view class="plate">
+  <navigator url="/pages/action/action" open-type="switchTab" hover-class="other-navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="{{a1src}}"></image>
+       </view>
+       <text class="plate-info">
+        二手房
+       </text>
+  </navigator>
+  <navigator url="/pages/signup/signup" open-type="switchTab" hover-class="other-navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="{{a2src}}"></image>
+       </view>
+       <text class="plate-info">
+        新房
+       </text>
+  </navigator>
+  <navigator url="/pages/teacher/teacher" hover-class="navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="{{a3src}}"></image>
+       </view>
+       <text class="plate-info">
+        租房
+       </text>
+  </navigator>
+  <navigator url="/pages/about/about" hover-class="navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="{{a4src}}"></image>
+       </view>
+       <text class="plate-info">
+        卖房
+       </text>
+  </navigator>
+  <navigator url="/pages/about/about" hover-class="navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="{{a4src}}"></image>
+       </view>
+       <text class="plate-info">
+        海外
+       </text>
+  </navigator>
+</view> -->

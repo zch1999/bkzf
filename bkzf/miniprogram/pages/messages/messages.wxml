@@ -1,0 +1,10 @@
+<van-search
+  value="{{ value }}"
+  placeholder="请输入搜索关键词"
+  use-action-slot
+  bind:search="onSearch"
+>
+  <view slot="action" bind:tap="onSearch">搜索</view>
+</van-search>
+<view class="msg"><text class="msgtext">暂无消息，快去看房吧</text></view>
+<vant-button type="info" block bindtap="upload">立即找房</vant-button>
