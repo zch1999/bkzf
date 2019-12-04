@@ -1,2 +1,13 @@
-<!--miniprogram/pages/mine/mine.wxml-->
-<text>miniprogram/pages/mine/mine.wxml</text>
+<view class="login" bindtap="per_info">
+  <view class="headimg" align="center">
+    <image src="../../images/mine/heads.png" class="head_img"></image>
+  </view>
+  <view class="">
+    <view class="phoneno">
+      <text>888888888</text>
+    </view>
+    <view class="information">
+      <text>查看个人信息></text>
+    </view>
+  </view>
+</view>

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/mine/mine",
     "pages/index/index",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
@@ -13,8 +14,7 @@
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
     "pages/im/room/room",
-    "pages/messages/messages",
-    "pages/mine/mine"
+    "pages/messages/messages"
   ],
   "tabBar": {
     "selectedColor": "#2e5e86",

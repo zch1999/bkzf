@@ -1,1 +1,41 @@
 /* miniprogram/pages/mine/mine.wxss */
+.login{
+  height: 200rpx;
+  width:100%;
+  background-color:blue;
+  display: flex;
+  align-items: center;
+  flex-direction: row;/*按列显示*/
+}
+.headimg{
+  height: 200rpx;
+  width:25%;
+  /* background-color: yellow; */
+}
+.phoneno{
+  position: relative;
+  height: 50%;
+  width:75%;
+  /* background-color: yellow; */
+}
+/* headimg .head_img{ */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* margin: auto; */
+  /* z-index: 99; */
+   /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); */
+    
+/* } */
+.head_img{
+  margin-top:25rpx;
+  margin-bottom: 25rpx;
+  height: 150rpx;
+  width: 170rpx;
+  margin-left: 23rpx;
+  /* margin-right: 50%; */
+  /* float: right; */
+}

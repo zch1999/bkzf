@@ -59,8 +59,8 @@
 </view>
 <view class="nav-box">
   <view class="nav-config">
-    <image src='/images/navigate/haiwai2.png' class="config-image"></image>
     <text>买卖流程</text>
+    <image src='/images/navigate/haiwai2.png' class="config-image"></image>
   </view>
   <view class="nav-config">
     <image src='/images/navigate/haiwai2.png' class="config-image"></image>
@@ -80,6 +80,15 @@
     <text>买卖流程</text>
   </view>
 </view>
+<block wx:for="{{products}}">
+    <van-card
+        price="{{Math.round(item.view)}}"
+        desc="{{item.color}}"
+        title="{{item.title}}"
+        thumb="{{item.image}}"
+        data-id="{{item.id}}">
+    </van-card>
+</block>
     <!-- </view>
     </view> -->
 <!-- <view class="plate">

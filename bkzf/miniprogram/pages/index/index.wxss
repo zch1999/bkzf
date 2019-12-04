@@ -11,7 +11,6 @@ swiper image{
 top:0rpx;
 margin: 30rpx 0 0 30rpx; */
 position:absolute;
-
 /* left:0;right:0; top:0; bottom:0; */
 top:10rpx;
 right:30rpx;
@@ -87,13 +86,17 @@ opacity:0.7;
   flex-direction: row;
   margin:10rpx;
 }
-.nav-config .config-image{
-  /* position: absolute; */
+ .nav-config .config-image{
+  position:relative;
   width: 70rpx;
   height: 70rpx;
-  padding-bottom: 0;
-  /* padding-top: 0; */
-  padding-right: 0;
+  /* margin-left: 0; */
+  /* margin-right: 0;
+  margin-bottom: 0; */
+  /* padding-bottom: 0; */
+  /* padding-left: 0;*/
+  /* padding-top: 0;  */
+  /* padding-right: 0; */
 }
 .nav-finding{
   display: flex;
