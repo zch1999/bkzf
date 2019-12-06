@@ -5,19 +5,18 @@
   background-color:blue;
   display: flex;
   align-items: center;
-  flex-direction: row;/*按列显示*/
 }
-.headimg{
-  height: 200rpx;
-  width:25%;
+/* .headimg{
+  height: 200rpx; */
+  /* width:25%; */
   /* background-color: yellow; */
-}
-.phoneno{
-  position: relative;
-  height: 50%;
-  width:75%;
+/* } */
+/* .phoneno{ */
+  /* position: relative; */
+  /* height: 50%;
+  width:75%; */
   /* background-color: yellow; */
-}
+/* } */
 /* headimg .head_img{ */
   /* display: flex;
   justify-content: center;
@@ -35,7 +34,45 @@
   margin-bottom: 25rpx;
   height: 150rpx;
   width: 170rpx;
-  margin-left: 23rpx;
+  /* margin-left: 23rpx; */
   /* margin-right: 50%; */
   /* float: right; */
+}
+.mine_history{
+  height: 200rpx;
+  background-color: #fff;
+  display: flex;
+}
+.nav-item{
+  width:33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: yellow; */
+  flex-direction: column;
+}
+.nav-image{
+  width:100rpx;
+  height:100rpx;
+}
+.mine_info_check{
+  background-color: #fff;
+  margin-top: 30rpx;
+  padding: 20rpx 0;
+  display: flex;
+  flex-direction: column;
+}
+.mine_info_item{
+  height: 33%;
+  padding: 20rpx;
+}
+.mine_info_contact{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #ccc;
+}
+.mine_feedback{
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding:20rpx;
 }

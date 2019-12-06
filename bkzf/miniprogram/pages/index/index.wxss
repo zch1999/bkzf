@@ -56,7 +56,7 @@ opacity:0.7;
   width: 20%;
   display: flex;
   align-items: center;
-  flex-direction: column;/*按列显示*/
+  flex-direction: column;
   /* padding: 5rpx; */
    /* background-color: pink; */
 }
