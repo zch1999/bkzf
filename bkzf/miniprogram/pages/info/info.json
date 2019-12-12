@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "vant-button": "vant-weapp/button/index"
+  }
+}

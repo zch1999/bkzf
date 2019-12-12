@@ -1,0 +1,21 @@
+.info{
+  background-color: #f8f8f8;
+  padding:  0;
+}
+.info_contact{
+  border-bottom: 1rpx solid #ccc;
+}
+.info_operation{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  padding: 40rpx 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.quit{
+  margin-top: 40rpx;
+}
+.msgtext{
+  font-size: 30rpx;
+  color: rgb(173, 172, 172);
+}

@@ -7,5 +7,4 @@
 .msgtext{
   font-size: 30rpx;
   color: rgb(173, 172, 172);
-
 }

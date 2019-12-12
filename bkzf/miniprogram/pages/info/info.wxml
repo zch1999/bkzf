@@ -1,0 +1,11 @@
+<view class="info">
+  <view class="info_operation info_contact">
+    <text>手机号</text>
+    <text class="msgtext">></text>
+  </view>
+  <view class="info_operation info_contact">
+    <text>身份认证</text>
+    <text class="msgtext">></text>
+  </view>
+</view>
+<vant-button class="quit" type="info" block bindtap="quit">退出登录</vant-button>

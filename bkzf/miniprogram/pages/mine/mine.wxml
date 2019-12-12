@@ -4,39 +4,55 @@
   </view>
   <view class="">
     <view class="phoneno">
-      <text>888888888</text>
+      <text>153****14</text>
     </view>
     <view class="mine_info_look">
-      <text>查看个人信息></text>
+      <text>点击查看个人信息></text>
     </view>
   </view>
 </view>
 <view class="mine_history">
 <view class="nav-item">
     <image src='/images/navigate/ershoufang.png' class="nav-image"></image>
-    <text>二手房</text>
+    <text>订阅</text>
   </view>
   <view class="nav-item">
     <image src='/images/navigate/xin.png' class="nav-image"></image>
-    <text>新房</text>
+    <text>关注</text>
   </view>
   <view class="nav-item">
     <image src='/images/navigate/zhufang.png' class="nav-image"></image>
-    <text>租房</text>
+    <text>浏览</text>
   </view>
 </view>
 <view class="mine_info_check">
   <view class="mine_info_item mine_info_contact">
     <text>我的交易</text>
-    <text>></text>
+    <text class="msgtext">></text>
   </view>
   <view class="mine_info_item mine_info_contact">
     <text>我的房子</text>
+    <text class="msgtext">></text>
   </view>
   <view class="mine_info_item">
     <text>我的优惠卷</text>
+    <text class="msgtext">></text>
   </view>
 </view>
-<view class="mine_feedback">
+<view class="app_problem">
+ <view class="app_service mine_info_contact">
   反馈问题
+ </view>
+ <view class="app_service mine_info_contact">
+    <text>关注服务号</text>
+    <text class="msgtext">获取最新政策资讯></text>
+  </view>
+  <view class="app_service mine_info_contact">
+    <text>客服电话</text>
+    <text class="msgtext">10106188></text>
+  </view>
+  <view class="app_service ">
+    <text>关于我们</text>
+    <text class="msgtext">></text>
+  </view>
 </view>

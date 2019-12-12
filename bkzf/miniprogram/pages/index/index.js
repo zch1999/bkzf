@@ -23,9 +23,10 @@ Page({
     interval: 2000,
     duration: 500
   },
-  swipclick() {//点击图片触发事件
+  swipclick(event) {//点击图片触发事件
+    console.log('dddd');
     wx.navigateTo({
-      url: '/pages/messages/messages'
+      url: '/pages/xx/xx',
     })
   },
 

@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/mine/mine",
     "pages/index/index",
+    "pages/mine/mine",
+    "pages/info/info",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",
@@ -14,6 +15,7 @@
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
     "pages/im/room/room",
+    "pages/xx/xx",
     "pages/messages/messages"
   ],
   "tabBar": {
